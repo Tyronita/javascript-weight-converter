@@ -2,6 +2,7 @@
 The application converts user inputted values of a chosen measurement live on input.
 The repl link is provided below.
 https://repl.it/@Tyronita/JavaScript-Weight-Converter?language=html
+# https://javascript-weight-converter--tyronita.repl.co/
 
 The project is due an entire rework for the measurement conversion logic as the structure of embedded objects within an array is not suitable.
 However for now the project is entirely functional and is refactored into 3 javascript files a stylesheet file and an html file.
