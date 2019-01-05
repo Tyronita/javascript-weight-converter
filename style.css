@@ -1,0 +1,112 @@
+body{
+    background: radial-gradient(#000, #1f1f1f, #1a1a1a);
+    text-align: center;
+}
+
+h1{
+    font-size: 2.9em;
+    margin: 15px auto 15px auto;
+    color: #eee;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.io{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.io div h2{
+    margin-top: 10px;
+}
+
+.io div:nth-child(n+2) {
+    border: rgba(0, 0, 0, 0.2) 1px solid;
+    text-align: left;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 10px 10px 20px #000;
+}
+
+#selector {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    width: 98.5%;
+}
+
+#selector input[type=radio] {
+    display: none;
+}
+
+#selector label:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+#selector label{
+    width: 100%;
+    opacity: 0.5;
+    padding: 5px;
+    border-radius: 4px;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+    background: radial-gradient(#000, #1f1f1f, #1a1a1a);
+    border: 1.5px #eee solid;
+}
+
+#selector label:nth-child(1) {
+    color: #FF517A;
+    border-color: #FF517A;
+}
+
+#selector label:nth-child(2) {
+    color: #FFC94C;
+    border-color: #FFC94C;
+}
+
+#selector label:nth-child(3) {
+    color: #00EFAF;
+    border-color: #00EFAF;
+}
+
+#selector label:nth-child(4) {
+    color: #00BFFF;
+    border-color: #00BFFF;
+}
+
+.io div h2{
+    text-shadow: #fff 1px 1px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.io div span{
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    font-family: 'Lato', sans-serif;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .io {
+        width: 100%;
+    }
+}
